@@ -1,11 +1,11 @@
 package fundamentos;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Wrappers {
 	public static void main(String[] args) {
 
-		Scanner entrada = new Scanner(System.in);
+		//Scanner entrada = new Scanner(System.in);
 
 		// byte
 		Byte b = 100;
@@ -22,8 +22,7 @@ public class Wrappers {
 
 		// entrada.close();
 		
-		//Float
-		
+		//Float		
 		Float f = 123.0F;
 		System.out.println(f);
 		
