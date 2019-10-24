@@ -8,7 +8,7 @@ public class DesafioAritimeticos {
 		
 		double resultado;
 		
-		b = Math.pow(6*(3+2),2);
+		b = Math.pow(6*(3+2),2); //metodo para potencia
 		
 		b = b/(3*2);
 		
