@@ -5,17 +5,13 @@ public class DataTeste {
 		
 		Data data = new Data();
 		
-		data.dia = 04;
-		data.mes = 03;
-		data.ano = 1994;
-						
+//		data.ano=2021;
+								
 		System.out.println(data.obterDataFormatada());
 		
-		var data2 = new Data();
+		var data2 = new Data(06,07,2020);
 		
-		data2.dia = 06;
-		data2.mes = 07;
-		data2.ano = 2020;
+		
 		
 		System.out.println(data2.obterDataFormatada());
 	}
