@@ -14,7 +14,7 @@ public class Sistema {
 		c2.adicionarItem(new Produto("Impressora",998.90), 1);
 		
 		cliente.adicionarCompra(c1);
-		cliente.adicionarCompra(c2);
+		cliente.adicionarCompra  (c2);
 		
 		System.out.println(cliente.obterValorTotal());
 	}
